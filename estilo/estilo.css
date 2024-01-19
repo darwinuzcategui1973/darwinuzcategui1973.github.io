@@ -1,0 +1,517 @@
+/*  se puede llamar por etiqueta 
+body {
+   
+}
+ clases puede haber mucho por pagina 
+.class{
+
+}
+
+ por # id tiene que haber uno por pagina 
+#id{
+
+}
+*/
+
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    background: linear-gradient(rgba(238, 82, 44, .9), rgba(249, 187, 1725, .9)), url("../imagenes/fondo.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+#contenedor-titulo-flex {
+    display: flex;
+    justify-content: center;
+    margin: 18vh 0;
+    width: 100%;
+    /* esto margin:18vh 0;
+    es igual que 
+    margin-top: 18vh;
+    margin-right: 0px;
+    margin-bottom: 18vh;
+    margin-left: 0px;
+    */
+}
+
+h1 {
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.contenedor-titulo {
+    text-align: center;
+}
+
+.contenedor-titulo a,
+#acerca a,
+#blog a,
+#que-esperas a,
+#contacto input[type="submit"] {
+    font-size: 14px;
+    color: #fff;
+    background: orange;
+    padding: 14px 24px;
+    width: 128px;
+    display: inline-block;
+}
+
+p.logo {
+    color: #fff;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+
+/* seccion acerca de mi */
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+#acerca .contenedor-acerca {
+    display: flex;
+    justify-content: space-around;
+}
+
+#acerca .texto {
+    width: 42%;
+}
+
+
+/* SECCION SERVICIOS */
+
+.contenedor-servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.servicio {
+    width: 24%;
+    padding: 34px 30px 38px 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.servicio h4 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.servicio p {
+    margin-bottom: 20px;
+    height: 194px;
+}
+
+.contenedor-servicios .naranja {
+    background: linear-gradient(to top, #df8550, #f3be68);
+    box-shadow: 0 12px 30px 0 rgba(214, 110, 12, 0.37);
+}
+
+.contenedor-servicios .celeste {
+    background: linear-gradient(to top, #40a8f9, #5cb8ff);
+    box-shadow: 0 12px 30px 0 rgba(86, 163, 222, .3);
+}
+
+.ondas {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.icono {
+    float: right;
+}
+
+
+/* SECCION DE MIS TRABAJOS */
+
+
+/* SECCION MIS TRABAJOS */
+
+button.owl-prev,
+button.owl-next {
+    font-size: 90px !important;
+}
+
+span {
+    color: orange;
+}
+
+#mis-trabajos p {
+    text-align: center;
+    color: #000;
+}
+
+#mis-trabajos a {
+    font-size: 14px;
+    color: #fff;
+    background: #fff;
+    width: 80%;
+    display: inline-block;
+}
+
+/* SECCION POR QUE TRABAJAR CONMIGO */
+ .contenedor-trabajar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#por-que-trabajar .item {
+    width: 28%;
+    text-align: center;
+}
+
+#por-que-trabajar ul li {
+    list-style: none;
+}
+
+#por-que-trabajar ul li:nth-child(2) {
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#por-que-trabajar ul li:nth-child(3) {
+    line-height: 31px;
+}
+
+
+/* SECCION BLOG */
+
+#blog {
+    background: #F9FAFC;
+}
+
+#blog .contenedor-publicaciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+#blog .publicacion {
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+}
+
+#blog img {
+    width: 100%;
+}
+
+#blog .contenido {
+    background: #fff;
+    padding: 20px;
+}
+
+#blog h4 {
+    font-size: 23px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#blog p {
+    color: #5A6169;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+#blog a {
+    width: 87px;
+}
+
+
+/* SECCION QUE ESPERAS */
+
+#que-esperas {
+    background: linear-gradient(rgba(238, 82, 44, .94), rgba(249, 187, 1725, .9));
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 40px;
+}
+
+#que-esperas h3 {
+    font-size: 23px;
+    color: #fff;
+}
+
+
+/* SECCION CONTACTO */
+
+#contacto form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 77%;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #5cb8ff;
+    font-size: 17px;
+}
+
+textarea {
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #5cb8ff;
+    font-size: 17px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#contacto input[type="submit"] {
+    width: 166px;
+    margin: auto;
+}
+
+.contacto-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.contacto-info img {
+    width: 28px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer {
+    background: #2F2F2F;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer img {
+    margin: 0 40px;
+    transform: rotate(0);
+    transition: 0.4s;
+}
+
+footer img:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+
+footer p {
+    color: #fff;
+    margin-top: 40px;
+}
+
+#whatsapp {
+    position: fixed;
+    top: 75%;
+    right: 1%;
+}
+/* smooth */
+
+html {
+    scroll-behavior:smooth;
+}
+
+
+#mis-trabajos,
+#acerca,
+#por-que-trabajar,
+#blog,
+#contacto {
+    padding: 90px 0;
+}
+
+#servicios {
+    padding: 70px 0;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .menu-icon {
+        display: block;
+        float: right;
+        width: 40px;
+        height: 35px;
+        margin-top: 15px;
+    }
+    header nav {
+        position: absolute;
+        top: 83px;
+        left: 0;
+        height: 268px;
+        background: #FFA164;
+        width: 100%;
+        display: none;
+    }
+    header nav ul {
+        flex-direction: column;
+    }
+    header nav ul li {
+        margin-bottom: 15px;
+    }
+    h1 {
+        font-size: 44px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    #acerca .contenedor-acerca {
+        flex-direction: column;
+    }
+    #acerca img {
+        width: 100%;
+    }
+    #acerca .texto {
+        width: 100%;
+    }
+    .contenedor-servicios {
+        flex-direction: column;
+    }
+    .servicio {
+        width: 82%;
+        padding: 34px 30px 69px 30px;
+    }
+    .icono {
+        margin-top: 23px;
+    }
+    h3 {
+        font-size: 43px;
+    }
+    .contenedor-trabajar {
+        flex-direction: column;
+    }
+    #por-que-trabajar .item {
+        width: 100%;
+    }
+    .item ul {
+        padding: 0;
+    }
+    #blog .contenedor-publicaciones {
+        flex-direction: column;
+    }
+    #blog .publicacion {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    #contacto form {
+        width: 100%;
+        flex-direction: column;
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+    }
+    footer img {
+        margin: 0 24px;
+    }
+}
+
+@media (min-width: 600px) and (max-width:800px) {
+    header {
+        height: 70vh;
+    }
+    .servicio {
+        width: 57%;
+        padding: 34px 30px 69px 30px;
+        margin: auto;
+        margin-bottom: 45px;
+    }
+    #blog .publicacion {
+        width: 71%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+}
+
+/* animacion con fadeIN */
+/* Animaciones */
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.lento {
+    -webkit-animation-duration: 1.8s;
+    animation-duration: 1.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
