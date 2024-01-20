@@ -43,7 +43,7 @@ a {
 }
 
 header {
-    background: linear-gradient(rgba(238, 82, 44, .9), rgba(249, 187, 1725, .9)), url("../imagenes/fondo.jpg");
+    background: linear-gradient(rgba(238, 82, 44, .9), rgba(249, 187, 1725, .9)), url("../imagenes/fondo3.jpg");
     height: 100vh;
     background-size: cover;
 }
