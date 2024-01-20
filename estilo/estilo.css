@@ -515,3 +515,57 @@ html {
 .fadeIn {
     animation-name: fadeIn;
 }
+.animation-container {
+    font-weight: 100;
+    font-size: .8em;
+    opacity: 1;
+  }
+  
+  .animation-container svg {
+    width: 90%;
+    display: fixed;
+    top: 18%;
+    margin: -8% 0 0 5%;
+    position: fixed;
+  }
+  
+  .animation-container svg .text {
+    width: 100%;
+    fill: transparent;
+    stroke-width: 1;
+    stroke-linejoin: round;
+    stroke-dasharray: 90,310;
+    stroke-dashoffset: 0;
+    -webkit-animation: text 8s infinite linear;
+    animation: text 8s infinite linear;
+  }
+  
+  .animation-container svg .text:nth-child(4n + 1) {
+    stroke: rgba(238, 82, 44, .9);
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  
+  .animation-container svg .text:nth-child(4n + 2) {
+    stroke: rgba(249, 187, 1725, .9);
+    -webkit-animation-delay: -4s;
+    animation-delay: -4s;
+  }
+  
+  .animation-container svg .text:nth-child(4n + 3) {
+    stroke: #ad1d1d;
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s;
+  }
+  
+  .animation-container svg .text:nth-child(4n + 4) {
+    stroke: #999999;
+    -webkit-animation-delay: -8s;
+    animation-delay: -8s;
+  }
+  
+  @-webkit-keyframes text {
+    100% {
+      stroke-dashoffset: -400;
+    }
+  }
