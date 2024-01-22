@@ -43,7 +43,7 @@ a {
 }
 
 header {
-    background: linear-gradient(rgba(238, 82, 44, .9), rgba(249, 187, 1725, .9)), url("../imagenes/fondo3.jpg");
+    background: linear-gradient(rgba(0, 0, 128, .9), rgba(30, 58, 138, .9)), url("../imagenes/fondo3.jpg");
     height: 100vh;
     background-size: cover;
 }
@@ -84,7 +84,7 @@ h2 {
 #contacto input[type="submit"] {
     font-size: 14px;
     color: #fff;
-    background: orange;
+    background: blue;
     padding: 14px 24px;
     width: 128px;
     display: inline-block;
@@ -177,7 +177,7 @@ button.owl-next {
 }
 
 span {
-    color: orange;
+    color: blue;
 }
 
 #mis-trabajos p {
@@ -266,7 +266,7 @@ span {
 /* SECCION QUE ESPERAS */
 
 #que-esperas {
-    background: linear-gradient(rgba(238, 82, 44, .94), rgba(249, 187, 1725, .9));
+    background: linear-gradient(rgba(0, 0, 128, .9), rgba(30, 58, 138, .9));
     text-align: center;
     padding: 50px 0;
     margin-top: 40px;
@@ -325,7 +325,7 @@ textarea {
 }
 
 footer {
-    background: #2F2F2F;
+    background: #151a36;
     padding: 40px 0;
     text-align: center;
     margin-top: 40px;
@@ -401,8 +401,7 @@ html {
         top: 83px;
         left: 0;
         height: 268px;
-        background: linear-gradient(rgba(238, 82, 44, .95), rgba(249, 187, 1725, .9));
-        ;
+        background: linear-gradient(rgba(0, 0, 128, .9), rgba(30, 58, 138, .9));
         width: 100%;
         display: none;
     }
@@ -469,15 +468,6 @@ html {
     }
 }
 
-menu-open {
-    background: black;
-    -webkit-animation-durationcontent: 2s;
-    animation-duration: 4s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    border-left: rgb(87, 139, 19);
-    background-color: rebeccapurple;
-}
 
 @media (min-width: 600px) and (max-width:800px) {
     header {
@@ -540,6 +530,7 @@ menu-open {
     font-weight: bold;
     font-family: Helvetica;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    color: #000;
     }
     .hit-the-floor-md {
         color: #fff;
@@ -547,6 +538,7 @@ menu-open {
         font-weight: bold;
         font-family: Helvetica;
         text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+        color: #000;
         }
     
     .hit-the-floor-pq {
@@ -555,10 +547,12 @@ menu-open {
         font-weight: bold;
         font-family: Helvetica;
         text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+        color: #000;
         }
     
     .hit-the-floor {
       text-align: center;
+      color: #000;
     }
     
     body {
