@@ -394,7 +394,8 @@ html {
         top: 83px;
         left: 0;
         height: 268px;
-        background: #FFA164;
+        background: linear-gradient(rgba(238, 82, 44, .95), rgba(249, 187, 1725, .9));
+        ;
         width: 100%;
         display: none;
     }

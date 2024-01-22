@@ -344,6 +344,7 @@
 
     <script>
         $(document).ready(function() {
+            console.log("funcion desplego");
 
             $(window).scroll(function() {
                 scroll = $(window).scrollTop();
@@ -392,13 +393,80 @@
             })
 
             $('.menu-icon').click(function() {
-                $('header nav').slideToggle();
-            })
+            console.log("sale el menu desplego");
+            $('header nav').slideToggle();
 
-        })
-    </script>
+            // Rotar y cambiar el ícono
+            $(this).toggleClass('menu-open');
+
+            if ($(this).hasClass('menu-open')) {
+                $(this).attr('src', 'imagenes/x.png'); // Cambia a la imagen de X
+            } else {
+                $(this).attr('src', 'imagenes/menu.png'); // Cambia al ícono original
+            }
+        });
+    });
+</script>
 
 
 </body>
 
 </html>
+
+<!--  
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Desplegable</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="menu">
+    <div class="contenedor">
+        <p id="logo" class="logo hit-the-floor fadeIn lento">DARWIN UZCATEGUI</p>
+        <img class="menu-icon" src="imagenes/menu.png" alt="menu mobil"/>
+        <nav>
+            <ul class="lista-menu hit-the-floor-pq fadeIn lento">
+                <li><a href="#acerca">Acerca de mi.</a></li>
+                <li><a href="#servicios">Servicio</a></li>
+                <li><a href="#mis-trabajos">Mis Trabajo</a></li>
+                <li><a href="#por-que-trabajar">Porque Trabjar conmigo</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function() {
+        console.log("funcion desplego");
+
+        $(window).scroll(function() {
+            // ... (código de scroll)
+        });
+
+        $('.menu-icon').click(function() {
+            console.log("sale el menu desplego");
+            $('header nav').slideToggle();
+
+            // Rotar y cambiar el ícono
+            $(this).toggleClass('menu-open');
+
+            if ($(this).hasClass('menu-open')) {
+                $(this).attr('src', 'ruta_de_la_imagen_x.png'); // Cambia a la imagen de X
+            } else {
+                $(this).attr('src', 'ruta_del_icono_original.png'); // Cambia al ícono original
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
+
+-->
