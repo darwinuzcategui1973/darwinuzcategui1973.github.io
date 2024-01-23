@@ -391,7 +391,7 @@ html {
     }
 
     .menu-icon.menu-open {
-        transform: rotate(90deg); /* Cambia el ángulo de rotación según tus necesidades */
+        transform: rotate(360deg); /* Cambia el ángulo de rotación según tus necesidades */
         transition: transform 0.6s ease; /* Agrega una transición suave para una animación agradable */
     }
 
