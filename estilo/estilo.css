@@ -31,10 +31,19 @@ header ul li {
     list-style: none;
     margin-right: 15px;
 }
+header nav ul li a:hover {
+    color: orange;
+}
+header nav ul li a:focus {
+    color: orangered;
+}
+
+
 
 a {
     text-decoration: none;
 }
+
 
 .contenedor {
     max-width: 1280px;
@@ -98,6 +107,15 @@ p.logo {
 nav ul li a {
     color: #fff;
 }
+
+header nav ul li a:hover {
+    color: orange;
+}
+
+header nav ul li a:focus {
+    color: orangered;
+}
+
 
 
 /* seccion acerca de mi */
@@ -411,6 +429,14 @@ html {
     header nav ul li {
         margin-bottom: 15px;
     }
+    header nav ul li a:hover {
+    color: orange;
+    }
+    header nav ul li a:focus {
+        color: orangered;
+    }
+    
+
     h1 {
         font-size: 44px;
     }
